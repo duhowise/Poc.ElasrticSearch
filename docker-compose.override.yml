@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  poc.elasticsearch.demoone:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ElasticConfiguration__Uri=http://elasticsearch:9200
+    ports:
+      - "8081:80"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+  poc.elasticsearch.demotwo:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ElasticConfiguration__Uri=http://elasticsearch:9200
+    ports:
+      - "8082:80"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

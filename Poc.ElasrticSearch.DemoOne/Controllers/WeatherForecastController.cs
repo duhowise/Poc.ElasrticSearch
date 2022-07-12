@@ -20,7 +20,7 @@ namespace Poc.ElasticSearch.DemoOne.Controllers
             try
             {
                 var random = new Random();
-                randomValue = random.Next(0, 100);
+                 randomValue = random.Next(0, 100);
                 var even=randomValue % 2 == 0;
                 if (even)
                 {

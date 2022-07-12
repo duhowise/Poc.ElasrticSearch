@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.ElasticSearch.DemoOne",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.ElasticSearch.DemoTwo", "Poc.ElasrticSearch.DemoTwo\Poc.ElasticSearch.DemoTwo.csproj", "{71B0CE7B-CB5B-4C58-B745-81CA9A085EEE}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3E8CDF91-5A4C-457B-898D-4E615CB78613}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{71B0CE7B-CB5B-4C58-B745-81CA9A085EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71B0CE7B-CB5B-4C58-B745-81CA9A085EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71B0CE7B-CB5B-4C58-B745-81CA9A085EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E8CDF91-5A4C-457B-898D-4E615CB78613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8CDF91-5A4C-457B-898D-4E615CB78613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8CDF91-5A4C-457B-898D-4E615CB78613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8CDF91-5A4C-457B-898D-4E615CB78613}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

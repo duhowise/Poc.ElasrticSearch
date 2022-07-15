@@ -35,6 +35,7 @@ services:
       - elasticsearch
 
   elasticsearch:
+    hostname: elasticsearch 
     build:
       context: elasticsearch/
       args:

@@ -8,6 +8,8 @@ services:
       dockerfile: Poc.ElasrticSearch.DemoOne/Dockerfile
     depends_on:
       - elasticsearch
+    networks:
+      - elk
       
 
   poc.elasticsearch.demotwo:
@@ -17,6 +19,8 @@ services:
       dockerfile: Poc.ElasrticSearch.DemoTwo/Dockerfile
     depends_on:
       - elasticsearch
+    networks:
+      - elk
   setup:
     build:
       context: setup/
